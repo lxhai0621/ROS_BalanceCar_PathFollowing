@@ -1,0 +1,8 @@
+prefix=/home/li/balance_car_simulation/devel
+
+Name: balance_car_control
+Description: Description of balance_car_control
+Version: 0.0.0
+Cflags: -I/home/li/balance_car_simulation/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy sensor_msgs std_msgs tf message_runtime

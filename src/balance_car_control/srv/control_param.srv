@@ -1,0 +1,14 @@
+# Data sensed by sensors
+float64 leftWheelVelocity        
+float64 rightWheelVelocity       
+float64 pitch                    
+float64 yaw                     
+float64 pitchAngVelocity         
+float64 yawAngVelocity           
+# Control messages received by the keyboard control node
+float64 dst_vel                  
+float64 dst_yaw                  
+---
+# Control torque of two wheels of balancing car
+float64 leftTorque
+float64 rightTorque

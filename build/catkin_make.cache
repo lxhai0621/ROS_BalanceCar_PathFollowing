@@ -1,0 +1,2 @@
+algorithm_simulation:balance_car_control:car_model
+-DCATKIN_DEVEL_PREFIX=/home/li/balance_car_simulation/devel -DCMAKE_INSTALL_PREFIX=/home/li/balance_car_simulation/install -G Unix Makefiles

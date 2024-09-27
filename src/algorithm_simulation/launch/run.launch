@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="algorithm_simulation" type="local_path.py" name="local_path" output="screen"/>
+    <node pkg="algorithm_simulation" type="pure_persuit.py" name="pure_persuit" output="screen"/>
+</launch>
